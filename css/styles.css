@@ -1,0 +1,211 @@
+/*Author: Bilawal
+18-09-2022*/
+
+/*Fontfamily*/
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.banner {
+	background-image: url('../img/academy-banner.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	align-items: center;	
+	padding: 0 100px;
+}
+.banner div{	
+	text-align: right;
+}
+.banner h1{
+	font-size: 50px;
+	font-weight: 800px;
+	font-family: 'Bakbak One', cursive;
+	margin-top: 20px;
+}
+.banner span{
+	display: block;
+}
+.training-info{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	padding-top:30px;
+}
+.training-info div:nth-child(2){
+	background-color: #1e2531;
+	padding: 25px;
+	margin-left:-140px ;
+	font-family: 'times new roman';
+	font-size: 32px;
+	line-height: 50px;
+	color: #fff;
+}
+.training-info div:nth-child(2) p::before{
+	content: '{ ';
+	color: #f00;
+}
+.img-fluid{
+	max-width: 100%;
+	height: auto;
+}
+.training-info div:nth-child(2) p::after{
+	content: ' }';
+	color: #f00;
+}
+.content-info{
+	
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 30px 0;
+}
+.content-info p{
+	color: #221c1c;
+	width: 80%;
+	text-align: center;
+	font-size: 22px;
+
+}
+.courses{
+	background-image: url('../img/modulebg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:center;
+	align-items: center;
+
+}
+.courses div{
+	width: 20%;
+}
+.courses p{
+	color: #FFF;
+	background-color: rgba(0, 0, 0, 0.7);
+	border-radius: 10px;
+	margin: 30px 15px;
+	padding: 15px;
+	text-align: center;
+
+}
+.team{
+	height: 70vh;
+	display: flex;
+	flex-wrap: wrap;
+	font-size: 24px;
+
+}
+.team-bg{
+	background-image: url('../img/testsbg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 50%;
+	padding: 40px;
+
+}
+.team-bg div{
+	background-color: rgba(0, 0, 0, 0.7);
+	height: 100%;
+	color: #fff;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	padding: 50px;
+	text-align: center;
+}
+.interview-bg{
+	background-image: url('../img/intrvwbg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 50%;
+	padding: 40px;
+
+}
+.interview-bg div{
+	background-color: rgba(0, 0, 0, 0.7);
+	height: 100%;
+	color: #fff;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	padding: 50px;
+	text-align: center;
+}
+footer{
+	padding: 30px 0;
+	text-align: center;
+
+}
+footer h2{
+	font-size: 40px;
+
+}
+footer a{
+	text-decoration: none;
+	color: #e79e19;
+	border: 2px solid;
+	padding: 10px;
+	display: inline-block;
+	margin-top: 20px;
+
+}
+footer>div{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 30px;
+}
+footer>div div{
+	margin:0 25px;
+}
+footer h3{
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+footer p{
+	font-size: 24px;
+	line-height: 32px;
+}
+footer p:nth-child(6){
+	margin-top: 20px;
+}
+
+@media screen and (max-width: 576px){
+.banner{
+	background-image: url('');
+	background-color: #cad1d9;
+}	
+.training-info div:nth-child(2){
+	margin-left: 0;
+	font-size: 18px;
+	text-align: center;
+	padding: 35px;
+	line-height: 34px;
+}
+.courses{
+	height: auto;
+}
+.courses div{
+	width: 100%;
+
+}
+.team{
+	height: auto;
+}
+.team-bg, .interview-bg{
+	width: 100%;
+}
+footer>div div:nth-child(2){
+	margin-top: 20px;
+}
+}
